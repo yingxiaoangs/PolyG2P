@@ -5,7 +5,7 @@ import os
 
 import symbols
 
-
+# 统计词频 反向计算权重 目的是解决低频词的预测问题
 class PolyCounter:
     def __init__(self):
         self.poly_counter = 'data/poly_counter.json5'
