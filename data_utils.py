@@ -45,9 +45,7 @@ class PolyCounter:
         # 填充有效类别的权重
         for idx, weight in zip(valid_indices, normalized_weights):
             class_weights[idx] = weight
-
-        print(normalized_weights)
-
+            
         return class_weights
 
 
